@@ -1,7 +1,7 @@
 package ru.mirea.excercise8.zadacha2;
 
 public class Square extends Rectangle {
-    private double side;
+    protected double side;
     public Square() {
     }
 
