@@ -1,7 +1,7 @@
 package ru.mirea.excercise8.zadacha2;
 
 public class Circle extends Shape{
-    private double radius;
+    protected double radius;
     public Circle() {}
 
     public Circle(double radius) {
