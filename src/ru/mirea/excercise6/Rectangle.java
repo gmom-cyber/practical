@@ -25,11 +25,11 @@ public class Rectangle {
 
     public void setDiaganal(int diaganal) {
         this.diaganal = diaganal;
-    }
-    public void move_X(int x) {
+    }// эти методы нужны для реализации интерфейса
+    public void move_X(int x) {//метод который двигает координату Х}
         center.setX(center.getX() + x);
     }
-    public void move_Y(int y) {
+    public void move_Y(int y) {//метод который двигает координату У
         center.setY(center.getY() + y);
     }
         @Override
