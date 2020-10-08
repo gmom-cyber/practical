@@ -1,8 +1,8 @@
 package ru.mirea.excercise8.zadacha2;
 
 public class Rectangle extends Shape{
-    private double width;
-    private double length;
+    protected double width;
+    protected double length;
 
     public Rectangle() {
     }

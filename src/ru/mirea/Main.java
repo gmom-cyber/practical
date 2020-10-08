@@ -10,11 +10,13 @@ public class Main {
 
         ru.mirea.excercise6.Main main2 = new ru.mirea.excercise6.Main();
         main2.main();//Запуск main из 6 практической
-*/
+
         ru.mirea.excercise7.Main main3 = new ru.mirea.excercise7.Main();
         main3.main();//Запуск main из 7 практической
+*/
+        ru.mirea.exercise9and10.Main main5 = new ru.mirea.exercise9and10.Main();
+        main5.main();//Запуск main из 10 & 9 практической
 
-        FurnitureShop main4 = new FurnitureShop();
-        main4.main();//Запуск main из 8 практической
+        
     }
 }

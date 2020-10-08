@@ -1,8 +1,8 @@
 package ru.mirea.excercise8.zadacha2;
 
 public abstract class Shape {
-    private String color;
-    private boolean filled;
+    protected String color;
+    protected boolean filled;
 
     public Shape(String color, boolean filled) {
         this.color = color;
