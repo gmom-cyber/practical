@@ -22,8 +22,8 @@ public class Company {
         System.out.println(companyIncome);
         System.out.println("Топы зарплат");
         statistics();
-        System.out.println("Увольнение 50% сотрудников компании, обновление капитализации компании и зарплат топ менеджеров");
-        ypolovinevanie();
+        System.out.println("Увольнение половины сотрудников компании, и обновление параметров");
+        ypolovinevanie();//Уполовинивание штаба
         System.out.println("Капитализация компании");
         System.out.println(companyIncome);
         refreshSalary();
