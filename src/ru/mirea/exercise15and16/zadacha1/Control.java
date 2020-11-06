@@ -1,4 +1,4 @@
-package ru.mirea.exercise14and15.zadacha1;
+package ru.mirea.exercise15and16.zadacha1;
 
 public class Control {
 

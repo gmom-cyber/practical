@@ -1,10 +1,12 @@
-package ru.mirea.exercise14and15.zadacha2;
+package ru.mirea.exercise15and16.zadacha2;
+
 import java.util.Random;
-public class ATM1 implements Runnable {
+
+public class ATM3 implements Runnable {
 
     private final Company res;
 
-    public ATM1(Company res) {
+    public ATM3(Company res) {
         this.res = res;
     }
 

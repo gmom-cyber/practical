@@ -1,4 +1,4 @@
-package ru.mirea.exercise14and15.zadacha2;
+package ru.mirea.exercise15and16.zadacha2;
 
 
 public class Bank {
