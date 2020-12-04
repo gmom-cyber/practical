@@ -1,4 +1,5 @@
 package ru.mirea.exercise23and24.ex2;
+
 import java.net.URL;
 import java.util.HashSet;
 import java.io.*;
@@ -13,7 +14,7 @@ public class HtmlPars {
         public HtmlPars() {
             Document document = null;
             try {
-                document = Jsoup.connect("https://www.mirea.ru/")
+               document = Jsoup.connect("https://www.mirea.ru/")
                         .userAgent("Chrome/4.0.249.0 Safari/532.5")
                         .referrer("http://www.google.com")
                         .get();
